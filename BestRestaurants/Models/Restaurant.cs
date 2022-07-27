@@ -12,7 +12,7 @@ namespace BestRestaurants.Models
         public int RestaurantId { get; set; }
         public string Name { get; set; }
 
-        //public string MichelinStars { get; set; }
+        public int MichelinStars { get; set; }
         public virtual ICollection<Cuisine> Cuisines { get; set; }
     }
 }
